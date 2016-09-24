@@ -26,5 +26,5 @@ if ( $topic != '' ) {
    B. Create a page with an id of equinox_topic_header
    C. 
 #Dependencies
-glFusion 1.6.1 or Higher (https://www.glfusion.org)
+glFusion 1.6.2 or Higher (https://www.glfusion.org)
 CMS theme that comes with glFusion
