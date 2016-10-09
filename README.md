@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Equinox 
 Theme For glFusion
 
