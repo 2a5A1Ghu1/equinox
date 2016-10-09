@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Equinox 
 Theme For glFusion
 
@@ -28,3 +29,7 @@ if ( $topic != '' ) {
 #Dependencies
 glFusion 1.6.2 or Higher (https://www.glfusion.org)
 CMS theme that comes with glFusion
+=======
+# Equinox
+Theme for glFusion CMS
+>>>>>>> master
