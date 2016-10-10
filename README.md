@@ -9,7 +9,7 @@ Thanks Mark for your help!!!
 
 2. Create Static Pages (Go to the Pages Admin)
 
-   A. Create a page with an id of equinox_landing_logo with execute PHP (Return) selected in the attributes tab then add the follow code and save. 
+   A. Create a page with an id of equinox_topic_header with execute PHP (Return) selected in the attributes tab then add the following code and save. 
 ```php   
    if ( isset( $_GET['topic'] )) {
     $topic = COM_applyFilter( $_GET['topic'] );
@@ -19,16 +19,32 @@ Thanks Mark for your help!!!
     $topic = '';
 }
 if ( $topic != '' ) {
-    echo PLG_replaceTags("[staticpage_content:header_".$topic."]");
+    echo PLG_replaceTags("[staticpage_content:equinox_header_".$topic."]");
 }
 ```  
 
-   B. Create a page with an id of equinox_topic_header
-   C. 
+   B. Create a page with an id of "equinox_landing_logo" (The following will enable the demo content. You may put what ever you would like here.)
+   ```
+   <div class="uk-cover uk-position-relative" style="height: 600px;" data-uk-scrollspy="{cls:'uk-animation-fade', delay:900}">
+    <img class="uk-invisible" src="" width="" height="" alt="">
+    <video class="uk-cover-object uk-position-absolute" width="640" height="360" autoplay loop muted>
+    <source src="/layout/equinox/demo/video/rain.mp4" type="video/mp4" /></video>
+   <div class="uk-position-cover uk-overlay-panel uk-flex uk-flex-center uk-flex-middle" data-uk-scrollspy="{cls:'uk-animation-scale-down', delay:1100}">
+   <img  class="uk-width-1-2" src="/layout/equinox/demo/images/equinox.png">
+   </div>
+   </div>
+   ```
+   
+   C. To control the footer logo create a static page with the id of "equinox_footer_logo". (Just replace with whatever image path you like, the folowing will enable the demo content.)
+   ```
+   /layout/equinox/demo/images/equinox.png
+   ```
+   
+   D. To change headers for each topic you will need to create staticpages with the id of equinox_header_topic_id. The "topic_id" should be the id of the topic you would like to change. Topics without a staticpage will have no header image.
+   
 #Dependencies
 glFusion 1.6.2 or Higher (https://www.glfusion.org)
 CMS theme that comes with glFusion
 =======
 # Equinox
 Theme for glFusion CMS
->>>>>>> master
