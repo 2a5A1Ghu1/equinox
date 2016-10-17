@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Equinox 
 Theme For glFusion
 
@@ -56,8 +55,3 @@ max-width:200px!important;
 #Dependencies
 glFusion 1.6.2 or Higher (https://www.glfusion.org)
 CMS theme that comes with glFusion
-=======
-=======
->>>>>>> master
-# Equinox
-Theme for glFusion CMS
