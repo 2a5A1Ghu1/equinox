@@ -1,0 +1,54 @@
+{# begin {templatelocation} #}
+{meta-header}
+{css-header}
+{js-header}
+{raw-header}
+
+{!!autotag staticpage_content:ads_analytics !!}
+
+</head>
+<body>
+{integrated_comments}
+
+<nav class="uk-navbar tm-navbar uk-width-1-1" style="position:fixed;top:0;z-index:99;">
+    
+
+  {!!autotag menu:navigation !!}
+
+  <div class="uk-navbar-flip">
+    <div class="uk-navbar-content uk-hidden-small">
+      <form method="get" action="{site_url}/search.php" class="uk-form uk-margin-remove uk-display-inline-block">
+        <input type="search" class="uk-form-width-small" placeholder="{$LANG09[10]}" autocomplete="off" name="query">
+        <input type="hidden" name="type" value="all">
+        <input type="hidden" name="mode" value="search">
+        <input type="hidden" name="results" value="{num_search_results}">
+      </form>
+    </div>
+  </div>
+
+  {!!autotag uikitlogin: !!}
+  {!!autotag menu:navigation_mobile !!}
+
+  <div class="uk-navbar-flip uk-navbar-flip uk-visible-small">
+    <a href="{site_url}/search.php" class="tm-navbar-toggle uk-navbar-toggle uk-navbar-toggle-alt"></a>
+  </div>
+
+  <div class="uk-navbar-brand tm-navbar-brand-oc uk-navbar-center uk-visible-small uk-flex uk-flex-center uk-flex-middle eq-nav-brand">
+    <a href="{site_url}">{!!autotag staticpage_content:equinox_mobile_nav !!}</a>
+  </div>
+</nav>
+
+<div class="uk-hidden-small">
+{!!autotag staticpage_content:equinox_landing_logo where:home !!}
+{!!autotag staticpage_content:equinox_topic_header !!}
+</div>
+
+{!!autotag staticpage_content:homepage-header where:home !!}
+
+<div class="tm-content uk-margin-large-top">
+  <div class="uk-container tm-container uk-container-center uk-margin-large-bottom uk-margin-large-top">
+    <div class="uk-grid uk-margin-top uk-margin-large-bottom uk-margin-large-top" data-uk-grid-margin>
+      <div class="{centercolumn}">
+        {info_block}
+        {content}
+{# end {templatelocation} #}
