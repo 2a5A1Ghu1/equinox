@@ -33,6 +33,11 @@ if ( $topic != '' ) {
    <img  class="uk-width-1-2" src="/layout/equinox/demo/images/equinox.png">
    </div>
    </div>
+   <style type="text/css">.mejs-container .mejs-controls {
+  display: none !important;
+}
+.mejs-overlay-loading { display: none; }
+</style>
    ```
    
    C. To control the footer logo create a static page with the id of "equinox_footer_logo". (Just replace with whatever image path or other content to what you you like, the folowing will enable the demo content.)
