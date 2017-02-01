@@ -22,6 +22,7 @@ if ( $topic != '' ) {
     echo PLG_replaceTags("[staticpage_content:equinox_header_".$topic."]");
 }
 ```  
+With this you can create a header for any topic you would like. Just create a static page with equinox_topic_topicid.
 
    B. Create a page with an id of "equinox_landing_logo" (The following will enable the demo content. You may put what ever you would like here.)
    ```
