@@ -5,9 +5,7 @@ Theme For glFusion
 Warning, although this theme will work without them, this theme employs some advanced "Static Page Hackery" to work properly.
 Thanks Mark for your help!!!
 
-1. Upload Equinox to your layout directory, usuaully in /public_html/layout. Be sure the name of the layout/ directory is **equinox** - notice all lowercase!
-
-2. Create Static Pages (Go to the Pages Admin)
+Create Static Pages (Go to the Pages Admin)
 
    A. Create a page with an id of equinox_topic_header with execute PHP (Return) selected in the attributes tab then add the following code and save.
 ```
