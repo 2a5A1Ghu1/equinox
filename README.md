@@ -1,4 +1,4 @@
-# Equinox
+# Equinox 1.0
 Theme For glFusion
 
 # Installation
