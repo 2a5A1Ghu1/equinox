@@ -24,9 +24,18 @@ set of styles.
 
 /* Primary Styles
 ========================================================================== */
+/* hides the player controls for hero video */
+.tm-equinox-hero .mejs-controls {
+	display:none;
+}
+.tm-equinox-hero .mejs-overlay-loading {
+	display: none;
+}
+
 /* tm-content wraps the entire content area  */
 .tm-content {
 	background:none;
+	margin-top:0px;
 }
 
 /* tm-container is the primary wrapper for the content area. This excludes
@@ -788,7 +797,7 @@ p.tm-article-meta {
 	height: 0;
 	border-width: 4px;
 	border-style: solid dashed dashed dashed;
-	border-color: #fff transparent transparent transparent;
+	border-color: #000 transparent transparent transparent;
 	background: transparent;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
