@@ -11,7 +11,7 @@
 {integrated_comments}
 
 <nav class="uk-navbar tm-navbar uk-width-1-1" style="position:fixed;top:0;z-index:99;">
-    
+
 
   {!!autotag menu:navigation !!}
 
@@ -38,16 +38,16 @@
   </div>
 </nav>
 
-<div class="uk-hidden-small">
+<div class="tm-equinox-hero uk-hidden-small">
 {!!autotag staticpage_content:equinox_landing_logo where:home !!}
 {!!autotag staticpage_content:equinox_topic_header !!}
 </div>
 
 {!!autotag staticpage_content:homepage-header where:home !!}
 
-<div class="tm-content uk-margin-large-top">
-  <div class="uk-container tm-container uk-container-center uk-margin-large-bottom uk-margin-large-top">
-    <div class="uk-grid uk-margin-top uk-margin-large-bottom uk-margin-large-top" data-uk-grid-margin>
+<div class="tm-content" style="margin-top:55px !important;">
+  <div class="uk-container tm-container uk-container-center uk-margin-large-bottom">
+    <div class="uk-grid uk-margin-top uk-margin-large-bottom" data-uk-grid-margin>
       <div class="{centercolumn}">
         {info_block}
         {content}
