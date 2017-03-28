@@ -61,5 +61,5 @@ max-width:200px!important;
    E. To change headers for each topic you will need to create staticpages with the id of equinox_header_topic_id. The "topic_id" should be the id of the topic you would like to change. Topics without a staticpage will have no header image.
 
 # Dependencies
-glFusion 1.6.2 or Higher (https://www.glfusion.org)
+glFusion 1.6.6 or Higher (https://www.glfusion.org)
 CMS theme that comes with glFusion
