@@ -45,7 +45,7 @@
 
 {!!autotag staticpage_content:homepage-header where:home !!}
 
-<div class="tm-content" style="margin-top:55px !important;">
+<div class="tm-content" style="margin-top:65px !important;">
   <div class="uk-container tm-container uk-container-center uk-margin-large-bottom">
     <div class="uk-grid uk-margin-top uk-margin-large-bottom" data-uk-grid-margin>
       <div class="{centercolumn}">
