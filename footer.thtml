@@ -11,19 +11,21 @@
     <i class="uk-icon-chevron-up"></i>
   </p>
 </a>
-
-<div id="tm-footer">
-  <div id="tm-block-bottom" class="uk-clearfix">
-    {right_blocks}
-  </div>
-
-  <div id="tm-block-footer" class="uk-clearfix uk-text-center uk-align-center uk-margin-bottom-remove">
-  <div class="uk-margin-top">{!!autotag staticpage_content:equinox_footer_logo !!}</div>
-    <div class="uk-margin-top uk-margin-bottom">
-      &copy; {site_name}
-    </div>
-  </div>
-</div>
+<footer id="tm-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+	<div id="tm-footer">
+	  <div id="tm-block-bottom" class="uk-clearfix">
+	    {right_blocks}
+	  </div>
+	  <div id="tm-block-footer" class="uk-clearfix uk-text-center uk-align-center uk-margin-bottom-remove">
+	  <div class="uk-margin-top">{!!autotag staticpage_content:equinox_footer_logo !!}</div>
+	    <div class="uk-margin-top uk-margin-bottom">
+					<span id="copyright" itemprop="copyrightHolder" itemscope="itemscope" itemtype="http://schema.org/Organization">
+						<span itemprop="name">{copyright_msg}</span>
+					</span>
+	    </div>
+	  </div>
+	</div>
+</footer>
 {js-footer}
 {raw-footer}
 </body>
