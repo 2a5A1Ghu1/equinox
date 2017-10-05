@@ -7,9 +7,9 @@
 {!!autotag staticpage_content:ads_analytics !!}
 
 </head>
-<body>
+<body style="overflow-y: scroll;" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 {integrated_comments}
-
+	<header role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 <nav class="uk-navbar tm-navbar uk-width-1-1" style="position:fixed;top:0;z-index:99;">
 
 
@@ -37,7 +37,7 @@
     <a href="{site_url}">{!!autotag staticpage_content:equinox_mobile_nav !!}</a>
   </div>
 </nav>
-
+	</header>
 <div class="tm-equinox-hero uk-hidden-small">
 {!!autotag staticpage_content:equinox_landing_logo where:home !!}
 {!!autotag staticpage_content:equinox_topic_header !!}

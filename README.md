@@ -1,5 +1,5 @@
 # Equinox
-Theme For glFusion v1.6.6
+Theme For glFusion v1.7.0
 
 # Installation
 Warning, although this theme will work without them, this theme employs some advanced "Static Page Hackery" to work properly.
@@ -34,13 +34,6 @@ With this you can create a header for any topic you would like. Just create a st
    <img  class="uk-width-1-2" src="/layout/equinox/demo/images/equinox.png">
    </div>
    </div>
-
-<style type="text/css">
-.mejs-container .mejs-controls {
-  display: none !important;
-}
-.mejs-overlay-loading { display: none; }
-</style>
    ```
 
    C. To control the footer logo create a static page with the id of "equinox_footer_logo". (Just replace with whatever image path or other content to what you you like, the folowing will enable the demo content.)
@@ -61,5 +54,5 @@ max-width:200px!important;
    E. To change headers for each topic you will need to create staticpages with the id of equinox_header_topic_id. The "topic_id" should be the id of the topic you would like to change. Topics without a staticpage will have no header image.
 
 # Dependencies
-glFusion 1.6.6 or Higher (https://www.glfusion.org)
+glFusion 1.7.0 or Higher (https://www.glfusion.org)
 CMS theme that comes with glFusion

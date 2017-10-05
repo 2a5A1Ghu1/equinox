@@ -1,3 +1,6 @@
+# Changes for glFusion v1.7.0
+ - synced with master CMS theme
+
 # Changes for glFusion 1.6.6
 
 Update to latest uikit v2 release (Provided by Mark)
